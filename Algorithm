@@ -1,0 +1,14 @@
+Algorithm of Postfix to infix 
+
+  1. Push post fix notation to the PostfixStack reverse order 
+    ( eg. push  - * F / E D + * C B A)
+2. while there are no data at PostfixStack 
+3.     read one symbol from the PostfixStack  
+4.     if the symbol is an operand
+5.       push it into the InfixStack  
+6.     else 
+7.       pop the top 2 values from the InfixStack 
+8.       put the operator between two operand 
+9.       Encapsulate the resulted string with parenthesis
+10.    if there is only one value in the stack 
+        That value in the stack is the desired Infix notation      
