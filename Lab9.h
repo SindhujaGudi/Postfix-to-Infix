@@ -1,7 +1,4 @@
-//Lab9.h
-//Name: Sindhuja Gudi
-//Section:01
-//Student ID:999992808
+
 
 #ifndef LAB9_H_
 #define LAB9_H_
